@@ -4,7 +4,7 @@ This responder allows you to initiate a scan task on an endpoint via Bitdefender
 
 ## Pre-requisites
 
-To initiate a scan via API, you need to have a unique identification of an endpoint. This responder relies on The Hive custom string field named `bitdefender-computer-id`, which contains `computer-id`. The `bitdefender-computer-id` must be filled either automatically when an event is forwarded or manually later.
+To initiate a scan via API, you need to have a unique identification of an endpoint. This responder relies on The Hive custom string field named `bitdefender-computer-id`, which contains `computer-id`, a unique identifier of every endpoint added to Bitdefender GravityZone. The `bitdefender-computer-id` must be filled either automatically when an event is forwarded to The Hive or manually.
 
 ## Initial Setup
 
